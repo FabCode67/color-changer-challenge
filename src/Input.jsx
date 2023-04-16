@@ -5,7 +5,7 @@ export const Input = ({colorValue, setColorValue, setHexValue, isDark, setIsDark
         <form onSubmit={(e) => e.preventDefault()}  >
             <input type="text"
                 autoFocus
-                placeholder="Enter your color"
+                placeholder="Enter name of color"
                 className="input"
                 required
                 value={colorValue}
